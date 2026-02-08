@@ -1,0 +1,23 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AR Chocolate Donut</title>
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+</head>
+
+<body style="margin:0; background:#ffffff;">
+  <model-viewer
+    src="chocolate_donuts_with_toppings.glb"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    camera-controls
+    disable-zoom
+    style="width:100vw; height:100vh;">
+  </model-viewer>
+</body>
+</html>
+Add AR viewer page
